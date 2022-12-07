@@ -12,6 +12,8 @@ The solution must contain examples demonstrating your understanding of the appro
 ## Program Walk-Through
 This to do list program will allow a user to keep track of tasks, their due dates, description of the task, and task completion status. There are options to update the task status to complete, remove a task completely, edit a task that is already entered and display the entire to-do list in an organized tabular format. 4 parallel ArrayLists are defined in the class titled 'Task.java' to store the data of task name, due date, description and status, so that the index of each ArrayList element corresponds with each other.
 
+The 6 potential actions available in this program are stored inside of an ArrayList for more organized code.
+
 ### Program Start:
 
 #### 1. Add an item to your to-do list.
