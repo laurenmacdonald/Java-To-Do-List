@@ -10,16 +10,16 @@ Design and write a program that achieves the following requirements:
 The solution must contain examples demonstrating your understanding of the appropriate use of core Java concepts such as: user input, formatted output, exception handling, data collections like ArrayLists, inheritance, classes, objects, method usage including the use of parameters, polymorphism, and encapsulation.
 
 ## Program Walk-Through
-This to do list program will allow a user to keep track of tasks, their due dates, description of the task, and task completion status. There are options to update the task status to complete, remove a task completely, edit a task that is already entered and display the entire to-do list in an organized tabular format. Parallel ArrayLists are defined in the class titled 'Task.java' to store the data of task name, due date, description and status, so that the index of each ArrayList element corresponds with each other.
+This to do list program will allow a user to keep track of tasks, their due dates, description of the task, and task completion status. There are options to update the task status to complete, remove a task completely, edit a task that is already entered and display the entire to-do list in an organized tabular format. 4 parallel ArrayLists are defined in the class titled 'Task.java' to store the data of task name, due date, description and status, so that the index of each ArrayList element corresponds with each other.
 
 ### Program Start:
 
 #### 1. Add an item to your to-do list.
-The user is asked to start by adding an item to their to-do list.
+The user is asked to start by adding an item to their to-do list. A do-while loop is used to run the addToDo object from the action1 class continuously while the user indicates 'yes' at the prompt: "Type yes to add another item to your to-do list". 
 
 ![Screenshot of example](https://github.com/laurenmacdonald/Java-To-Do-List/blob/0dd54fc597aaf798af6d81cf7029b957cc951c9d/Images/todolist1.png)
 
-A do-while loop is used to run the addToDo object from the action1 class continuously while the user indicates 'yes' at the prompt: "Type yes to add another item to your to-do list". Once the user indicates anything other than yes, the program will stop the do-while loop and the displayAll object will be called from class action5, displaying all the tasks the user has added to their to-do list.
+The addToDo object prompts for user input for each feature of the to-do list and the input is stored in the 4 parallel ArrayLists. Once the user indicates anything other than yes, the program will stop the do-while loop and the displayAll object will be called from class action5 (described below), displaying all the tasks the user has added to their to-do list.
 
 ![Screenshot of example](https://github.com/laurenmacdonald/Java-To-Do-List/blob/0dd54fc597aaf798af6d81cf7029b957cc951c9d/Images/todolist2.png)
 
